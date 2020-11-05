@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: slategrey;
+
+}
+header {
+    width: 75%;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;    
+  display: flex;
+  justify-content: space-around;
+  position: fixed; 
+  border-style: solid;
+  border-width: thin;
+  align-items: center;
+}
+
+h1{
+margin-bottom: 0.6px;
+text-align: left;
+font-size: medium;
+color: white;
+padding-left: 12px;
+}
+nav{
+  width: 100%;
+}
+  .menu-icon{
+      color:white;
+     margin-bottom: 120px;
+     margin-right: 50px;
+     font-size: x-large;
+  }
+
+      .search-icon {
+        display: none;
+        
+      }
+  
+  #search {
+    padding: 6px;
+    height: px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    border: 1px solid #d3d3d3;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+  }
+  #description{
+     
+        vertical-align: top;
+      background-color: slategray;
+      color: white;
+      cursor: pointer;
+      
+    }
+    textarea::placeholder{
+        color: white;
+       
+    }
+    #add-btn {
+        margin-right: 10px;
+        padding: 6px ;
+        font-size: 15px;
+        border: solid 1px #ccc;
+        width: 100px;
+        margin-top: 100px;
+        background-color: rgba(49, 131, 214, 0.4);
+        color: snow;
+       
+      }
+      
+
+      
