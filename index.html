@@ -1,41 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twitter</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter clone</title>
     <script src="https://use.fontawesome.com/23bea62652.js"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav >
-        <header >
-            <i class="fa fa-twitter  menu-icon" aria-hidden="true"></i>
-           
-                  <div class="des">
-                      <h1>HOME</h1>
-                    <textarea
-                      id="description"
-                      cols="60"
-                      rows="8"
-                    placeholder="What do you think ? "
-                    
-                    ></textarea>
-                               <button id="add-btn" type="button">Tweet</button>
-                           
-                  </div>
-                  <input
-                  id="search" type="text"
-                 placeholder="search"
-                
-                  
-               />
-      
-       
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <i class="fa fa-twitter menu-icon" aria-hidden="true"></i>
+      <div class="des">
+        <h1>HOME</h1>
+        <textarea
+          id="description"
+          cols="60"
+          rows="8"
+          type="text"  placeholder="What do you think ? "
+          class="description"
+          >
+        </textarea> 
         
-        
+      </div>
+      <button id="add-btn" type="button">Tweet</button>
+      <input id="search" type="text" placeholder="search" />
     
-</header>
-</nav>
-</body>
+      <div id="notes-list">
+        <ul id="list"></ul>
+      </div>
+
+ </header>
+    <div id="edit-note" class="hide">
+        <form>
+         
+          <div>
+            <textarea
+              id="edit-Tweet"
+              cols="60"
+              rows="8"
+              placeholder="Edit Descriptioon"
+              class="description"
+            ></textarea>
+          </div>
+          <button id="save" type="button">Save</button>
+          <button id="cancel" type="button">Edit</button>
+          <button id="cancel" type="button">Cancel</button>
+        </form>
+      </div>
+    
+    <script src="script.js"></script>
+  </body>
 </html>
